@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 375px;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left app-logo {
+    width: 60px; 
+    height: auto; 
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-icon {
+    width: 24px; 
+    height: 24px;
+    margin-left: 10px; 
+}
+
+.instagram-stories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 375px;
+    padding: 10px 0;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.story-pic {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #c13584; 
+    padding: 2px;
+}
+
+.instagram-post {
+    background-color: white;
+    width: 100%;
+    max-width: 375px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.verified {
+    color: #338bdd;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.actions {
+    padding: 10px;
+}
+
+.likes, .caption, .comments, .time {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.time {
+    color: #8e8e8e;
+}
+
+.instagram-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 375px;
+    padding: 10px 0;
+    background-color: white;
+    border-top: 1px solid #dbdbdb;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+}
